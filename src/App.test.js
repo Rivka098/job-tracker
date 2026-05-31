@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders job tracker interface', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(screen.getByText(/סדר נעים וקליל לחיפוש העבודה שלך/i)).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /הוספת משרה/i })).toBeInTheDocument();
 });

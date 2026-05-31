@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Job Tracker favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1eb4b7"/>
+      <stop offset="100%" stop-color="#0b8287"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="56" height="52" rx="14" fill="url(#bg)"/>
+  <rect x="14" y="22" width="36" height="26" rx="6" fill="#f7fffe"/>
+  <path d="M24 22v-3c0-4.4 3.6-8 8-8s8 3.6 8 8v3" fill="none" stroke="#0b8287" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="32" cy="35" r="3" fill="#0b8287"/>
+</svg>
