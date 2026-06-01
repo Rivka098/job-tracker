@@ -1,13 +1,13 @@
 :root {
-  --bg: #edf9f8;
+  --bg: #fff1f7;
   --panel: rgba(255, 255, 255, 0.82);
-  --panel-strong: #f7fffe;
-  --text: #153336;
-  --muted: #4c7476;
-  --line: rgba(33, 106, 112, 0.16);
-  --accent: #1eb4b7;
-  --accent-dark: #0b8287;
-  --shadow: 0 24px 60px rgba(18, 90, 96, 0.16);
+  --panel-strong: #fff8fc;
+  --text: #4a1230;
+  --muted: #92506f;
+  --line: rgba(180, 47, 112, 0.16);
+  --accent: #ff4fa0;
+  --accent-dark: #c21872;
+  --shadow: 0 24px 60px rgba(151, 33, 90, 0.16);
 }
 
 * {
@@ -18,9 +18,9 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(circle at top right, rgba(30, 180, 183, 0.22), transparent 34%),
-    radial-gradient(circle at left center, rgba(88, 219, 199, 0.2), transparent 34%),
-    linear-gradient(180deg, #f6fffe 0%, var(--bg) 100%);
+    radial-gradient(circle at top right, rgba(255, 79, 160, 0.24), transparent 34%),
+    radial-gradient(circle at left center, rgba(255, 160, 208, 0.24), transparent 34%),
+    linear-gradient(180deg, #fff9fc 0%, var(--bg) 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -86,8 +86,8 @@ textarea {
   width: 100%;
   padding: 22px;
   border-radius: 22px;
-  background: linear-gradient(160deg, #dffaf8 0%, #c8f2ee 100%);
-  border: 1px solid rgba(11, 130, 135, 0.2);
+  background: linear-gradient(160deg, #ffe2f0 0%, #ffc9e3 100%);
+  border: 1px solid rgba(194, 24, 114, 0.2);
   text-align: center;
 }
 
@@ -146,7 +146,7 @@ textarea {
   width: 100%;
   padding: 14px 16px;
   border-radius: 16px;
-  border: 1px solid rgba(52, 130, 137, 0.2);
+  border: 1px solid rgba(194, 24, 114, 0.2);
   background: rgba(255, 255, 255, 0.88);
   color: var(--text);
   outline: none;
@@ -157,8 +157,8 @@ textarea {
 .job-form textarea:focus,
 .meta-grid select:focus,
 .meta-grid input:focus {
-  border-color: rgba(30, 180, 183, 0.56);
-  box-shadow: 0 0 0 4px rgba(30, 180, 183, 0.16);
+  border-color: rgba(255, 79, 160, 0.56);
+  box-shadow: 0 0 0 4px rgba(255, 79, 160, 0.16);
 }
 
 .full-width {
@@ -180,7 +180,7 @@ textarea {
   background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
   color: white;
   font-weight: 700;
-  box-shadow: 0 16px 32px rgba(30, 180, 183, 0.3);
+  box-shadow: 0 16px 32px rgba(194, 24, 114, 0.3);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
@@ -191,7 +191,7 @@ textarea {
 }
 
 .primary-button:hover {
-  box-shadow: 0 18px 38px rgba(30, 180, 183, 0.36);
+  box-shadow: 0 18px 38px rgba(194, 24, 114, 0.36);
 }
 
 .jobs-list {
@@ -205,7 +205,7 @@ textarea {
   border-radius: 24px;
   background: var(--panel-strong);
   border: 1px solid var(--line);
-  box-shadow: 0 16px 36px rgba(18, 97, 104, 0.1);
+  box-shadow: 0 16px 36px rgba(151, 33, 90, 0.1);
 }
 
 .job-header {
@@ -229,7 +229,7 @@ textarea {
 .ghost-button {
   padding: 10px 14px;
   border-radius: 999px;
-  background: rgba(11, 130, 135, 0.12);
+  background: rgba(194, 24, 114, 0.12);
   color: var(--accent-dark);
   font-weight: 700;
 }
@@ -248,7 +248,7 @@ textarea {
 .job-text {
   margin: 0;
   line-height: 1.8;
-  color: #245258;
+  color: #6b2a4d;
 }
 
 .text-button {
@@ -281,8 +281,8 @@ textarea {
   padding: 38px 24px;
   border-radius: 24px;
   text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(234, 252, 250, 0.95));
-  border: 1px dashed rgba(11, 130, 135, 0.28);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 237, 246, 0.95));
+  border: 1px dashed rgba(194, 24, 114, 0.28);
 }
 
 .empty-state h3 {
